@@ -31,7 +31,7 @@ ApplicationWindow {
     */
     property var coverMessages: []
     property string coverTitle: "" // e.g. qsTr("New Messages")
-
+/*
     Python {
         id: py
         Component.onCompleted: {
@@ -54,7 +54,7 @@ ApplicationWindow {
             console.debug("called")
         }
     }
-
+*/
     function cleanInvitation(link) {
         if (link) {
             var invit_raw = link.toString().split('#/')[1]
